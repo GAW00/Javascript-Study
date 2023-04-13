@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            var 판매량_1분기 = 1200;
+            var 판매량_2분기 = 1300;
+            var 판매량_3분기 = 1000;
+            var 판매량_avg = (판매량_1분기 + 판매량_2분기 + 판매량_3분기) / 3;
+
+            var 판매량_4분기 = prompt("4분기 판매량 입력");
+
+            var result = 판매량_4분기 >= 판매량_avg ? "판매량이 평균 이상" : "판매량이 평균 미달";
+            document.write(result);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

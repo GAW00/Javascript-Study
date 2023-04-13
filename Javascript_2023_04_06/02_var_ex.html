@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            // 1)
+            // var box;                // box 변수 선언
+            // document.write(box);    // undefined : 선언만 했을때
+            
+            // 2)
+            // var box = 100;          // box 변수 선언, 초기화
+            // document.write(box);    // 100 : 변수 box의 값에 따라 계속 바뀜
+            
+            // 3)
+            var box = 100;          // box 변수 선언, 초기화
+            box = 30;               // 값은 계속 바뀔 수 있다
+            var box = 50;           // 심지어 이것도 된다
+            document.write(box);    // 100 : 변수 box의 값에 따라 계속 바뀜
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
