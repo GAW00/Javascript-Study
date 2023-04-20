@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            <!-- img 태그의 usmap 속성과 map 태그의 name 속성을 일치 시킨다 -->
+            <img src="../images/window_object_1.jpg" usemap="#intro" alt="">
+            <map name="intro">
+                <!-- onclick="window.close()" => 마우스 클릭마다 이벤트 발생 - window 객체에 close 메소드로 창을닫음 -->
+                <area shape="rect" coords="230,368,280,390" href="#" onclick="window.close();" alt="">
+            </map>
+        </p>
+    </body>
+</html>
